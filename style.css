@@ -1,0 +1,104 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.header {
+  background: url(./img/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media screen {
+  @media (min-width: 300px) and (max-width:720px){
+    .text-in-header{
+      font-size: 48px;
+    }
+  
+  }
+  @media (min-width: 720px) and (max-width:960px){
+    .text-in-header{
+      font-size: 48px;
+    }
+    .image-1{
+      max-width: 380px;
+      top: 392px;
+      left: 403px;
+    }
+  }
+  @media (min-width: 960px) and (max-width:1140px){
+    .text-in-header{
+      font-size: 55px;
+    }
+    .image-1{
+      max-width: 440px;
+      top: 360px;
+      left: 558px;
+    }
+  }
+  @media (min-width: 1140px) and (max-width:1400px){
+    .text-in-header{
+      font-size: 62px;
+    }
+    .image-1{
+      max-width: 500px;
+      top: 322px;
+      left: 667px;
+    }
+  }
+  @media (min-width: 1401px) and (max-width:1780px){
+    .text-in-header{
+      font-size: 85px;
+    }
+    .image-1{
+      max-width: 550px;
+      top: 352px;
+      left: 879px;
+    }
+  }
+  @media (min-width: 1780px) and (max-width:2000px){
+    .text-in-header{
+      font-size: 55px;
+    }
+    .image-1{
+      max-width: 500px;
+      top: 310px;
+      left: 1110px;
+    }
+  }  
+  }
+  
+
+.nav-col {
+  direction: rtl;
+}
+.scroll-cta {
+  padding-top: 10rem;
+}
+.content{
+    background-color:#F4F1F1;
+}
+.card-1{
+  outline: 1px solid  #000;
+    outline-offset: -20px;
+}
+.footer-white
+{
+  background-color: #ffffff;
+}
+.footer-black{
+  background-color: #000000;
+}
+.c-img{
+  max-height: 400px;
+}
+.ribbons{
+    position: absolute;
+    width: 100px;
+    text-align: center;
+    height: 31px;
+    top: 10px;
+    right: -26px;
+    transform: rotate(45deg);
+    background-color: red;
+    color: black
+}
